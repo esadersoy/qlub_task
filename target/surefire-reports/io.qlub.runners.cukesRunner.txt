@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: io.qlub.runners.cukesRunner
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 77.012 s <<< FAILURE! - in io.qlub.runners.cukesRunner
+user should be able to see his bill amount(Verification of display of bill)  Time elapsed: 0.12 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [Pay my Bill is not verified!] expected:<"Pay [my] Bill"> but was:<"Pay [the] Bill">
+
+
+Verification of display of bill  Time elapsed: 1.532 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [Pay my Bill is not verified!] expected:<"Pay [my] Bill"> but was:<"Pay [the] Bill">
+
+
+user should able to see apple pay option(Verification of the apple pay)  Time elapsed: 10.44 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Apple Pay option is not verified!] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)
+
+
+Verification of the apple pay  Time elapsed: 11.546 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Apple Pay option is not verified!] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)
+
+
+user should be able to see google pay option(Verification of the google pay)  Time elapsed: 10.048 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Google Pay is not verified! ] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)
+
+
+Verification of the google pay  Time elapsed: 11.252 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Google Pay is not verified! ] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)
+
+

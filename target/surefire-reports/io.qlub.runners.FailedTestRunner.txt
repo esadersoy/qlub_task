@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.qlub.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.393 s <<< FAILURE! - in io.qlub.runners.FailedTestRunner
+initializationError(io.qlub.runners.FailedTestRunner)  Time elapsed: 0.01 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to parse 'target\rerun.txt'
+Caused by: java.nio.file.NoSuchFileException: target\rerun.txt
+

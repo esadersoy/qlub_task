@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.qlub.runners.cukesRunner" time="77.012" tests="28" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ersoyyyyy\IdeaProjects\Qlub_task\target\test-classes;C:\Users\ersoyyyyy\IdeaProjects\Qlub_task\target\classes;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ersoyyyyy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ersoyyyyy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ersoyyyyy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ersoyyyyy\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\ersoyyyyy\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ersoyyyyy\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ersoyyyyy\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ersoyyyyy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\ersoyyyyy\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+02:00"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ERSOYY~1\AppData\Local\Temp\surefire7980664055742021978\surefirebooter3721253788284567619.jar C:\Users\ersoyyyyy\AppData\Local\Temp\surefire7980664055742021978 2022-04-22T20-24-45_969-jvmRun1 surefire5786975902265974752tmp surefire_04695995660135253623tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ersoyyyyy\IdeaProjects\Qlub_task\target\test-classes;C:\Users\ersoyyyyy\IdeaProjects\Qlub_task\target\classes;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ersoyyyyy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ersoyyyyy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ersoyyyyy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ersoyyyyy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ersoyyyyy\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\ersoyyyyy\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ersoyyyyy\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ersoyyyyy\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ersoyyyyy\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\ersoyyyyy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ersoyyyyy\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\ersoyyyyy\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ersoyyyyy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ersoyyyyy\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\ersoyyyyy\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ersoyyyyy"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\ersoyyyyy\IdeaProjects\Qlub_task"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ERSOYY~1\AppData\Local\Temp\surefire7980664055742021978\surefirebooter3721253788284567619.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="ersoyyyyy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ersoyyyyy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ERSOYY~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\ersoyyyyy\IdeaProjects\Qlub_task"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec MyWinLocker\x86;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\ersoyyyyy\AppData\Local\nvs\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="user scans QR code on the table" classname="Verification of display of the menu" time="1.954"/>
+  <testcase name="user should be able to choose &quot;View the Menu&quot; option" classname="Verification of display of the menu" time="2.528"/>
+  <testcase name="user clicks on the &quot;View the Menu&quot; option" classname="Verification of display of the menu" time="0.233"/>
+  <testcase name="user should be displayed &quot;Diner&apos;s QA&quot; menu" classname="Verification of display of the menu" time="1.033"/>
+  <testcase name="menu should be displayed as pdf file to the user" classname="Verification of display of the menu" time="1.811"/>
+  <testcase name="Verification of display of the menu" classname="Verification of display of the menu" time="3.375"/>
+  <testcase name="user scans QR code on the table" classname="Verification of display of bill" time="1.684"/>
+  <testcase name="user should be able to see &quot;Pay my Bill&quot; option" classname="Verification of display of bill" time="0.762"/>
+  <testcase name="user clicks on the &quot;Pay the Bill&quot; option" classname="Verification of display of bill" time="0.09"/>
+  <testcase name="user should be able to see information of his table" classname="Verification of display of bill" time="3.403"/>
+  <testcase name="user should be able to see his bill information" classname="Verification of display of bill" time="0.212"/>
+  <testcase name="user should be able to see his bill amount" classname="Verification of display of bill" time="0.12">
+    <failure message="&#10;The following assertion failed:&#10;1) [Pay my Bill is not verified!] expected:&lt;&quot;Pay [my] Bill&quot;&gt; but was:&lt;&quot;Pay [the] Bill&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [Pay my Bill is not verified!] expected:<"Pay [my] Bill"> but was:<"Pay [the] Bill">
+
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be able to see his bill information&amp#27;[0m     &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.userShouldBeAbleToSeeHisBillInformation()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verification of display of bill" classname="Verification of display of bill" time="1.532">
+    <failure message="&#10;The following assertion failed:&#10;1) [Pay my Bill is not verified!] expected:&lt;&quot;Pay [my] Bill&quot;&gt; but was:&lt;&quot;Pay [the] Bill&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [Pay my Bill is not verified!] expected:<"Pay [my] Bill"> but was:<"Pay [the] Bill">
+
+]]></failure>
+    <system-out><![CDATA[  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser should be able to see his bill amount&amp#27;[0m           &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.userShouldBeAbleToSeeHisHerBillAmount()&amp#27;[0m
+      &amp#27;[31morg.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) [Pay my Bill is not verified!] expected:<"Pay [my] Bill"> but was:<"Pay [the] Bill">
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
+	at io.qlub.stepDefs.menuStepDefs.userShouldBeAbleToSeeHisHerBillAmount(menuStepDefs.java:69)
+	at âœ½.user should be able to see his bill amount(file:///C:/Users/ersoyyyyy/IdeaProjects/Qlub_task/src/test/resources/features/payMyBill.feature:12)
+&amp#27;[0m
+
+    Embedding screenshot [image/png 22597 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="user scans QR code on the table" classname="Verification of the card payment" time="1.56"/>
+  <testcase name="user should be able to see &quot;Pay the Bill&quot; option" classname="Verification of the card payment" time="0.582"/>
+  <testcase name="user clicks on the &quot;Pay the Bill&quot; option" classname="Verification of the card payment" time="0.104"/>
+  <testcase name="user should able to see card payment option" classname="Verification of the card payment" time="11.191"/>
+  <testcase name="Verification of the card payment" classname="Verification of the card payment" time="12.484"/>
+  <testcase name="user scans QR code on the table" classname="Verification of the apple pay" time="1.608"/>
+  <testcase name="user should be able to see &quot;Pay the Bill&quot; option" classname="Verification of the apple pay" time="0.649"/>
+  <testcase name="user clicks on the &quot;Pay the Bill&quot; option" classname="Verification of the apple pay" time="0.097"/>
+  <testcase name="user should able to see apple pay option" classname="Verification of the apple pay" time="10.44">
+    <failure message="&#10;The following assertion failed:&#10;1) [# # # # Apple Pay option is not verified!] &#10;Expecting value to be true but was false&#10;at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)&#10;" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Apple Pay option is not verified!] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)
+
+</failure>
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pay the Bill"&amp#27;[0m&amp#27;[32m option&amp#27;[0m         &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.user_clicks_on_the_option(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verification of the apple pay" classname="Verification of the apple pay" time="11.546">
+    <failure message="&#10;The following assertion failed:&#10;1) [# # # # Apple Pay option is not verified!] &#10;Expecting value to be true but was false&#10;at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)&#10;" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Apple Pay option is not verified!] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)
+
+</failure>
+    <system-out><![CDATA[  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser should able to see apple pay option&amp#27;[0m         &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.userShouldAbleToSeeApplePayOption()&amp#27;[0m
+      &amp#27;[31morg.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) [# # # # Apple Pay option is not verified!] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:105)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
+	at io.qlub.stepDefs.menuStepDefs.userShouldAbleToSeeApplePayOption(menuStepDefs.java:106)
+	at âœ½.user should able to see apple pay option(file:///C:/Users/ersoyyyyy/IdeaProjects/Qlub_task/src/test/resources/features/paymentOption.feature:18)
+&amp#27;[0m
+
+    Embedding screenshot [image/png 24968 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="user scans QR code on the table" classname="Verification of the google pay" time="1.661"/>
+  <testcase name="user should be able to see &quot;Pay the Bill&quot; option" classname="Verification of the google pay" time="0.534"/>
+  <testcase name="user clicks on the &quot;Pay the Bill&quot; option" classname="Verification of the google pay" time="0.124"/>
+  <testcase name="user should be able to see google pay option" classname="Verification of the google pay" time="10.048">
+    <failure message="&#10;The following assertion failed:&#10;1) [# # # # Google Pay is not verified! ] &#10;Expecting value to be true but was false&#10;at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)&#10;" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Google Pay is not verified! ] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)
+
+</failure>
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pay the Bill"&amp#27;[0m&amp#27;[32m option&amp#27;[0m         &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.user_clicks_on_the_option(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verification of the google pay" classname="Verification of the google pay" time="11.252">
+    <failure message="&#10;The following assertion failed:&#10;1) [# # # # Google Pay is not verified! ] &#10;Expecting value to be true but was false&#10;at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)&#10;" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [# # # # Google Pay is not verified! ] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)
+
+</failure>
+    <system-out><![CDATA[  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser should be able to see google pay option&amp#27;[0m     &amp#27;[90m# io.qlub.stepDefs.menuStepDefs.userShouldBeAbleToSeeGooglePayOption()&amp#27;[0m
+      &amp#27;[31morg.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) [# # # # Google Pay is not verified! ] 
+Expecting value to be true but was false
+at menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:113)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
+	at io.qlub.stepDefs.menuStepDefs.userShouldBeAbleToSeeGooglePayOption(menuStepDefs.java:114)
+	at âœ½.user should be able to see google pay option(file:///C:/Users/ersoyyyyy/IdeaProjects/Qlub_task/src/test/resources/features/paymentOption.feature:25)
+&amp#27;[0m
+
+    Embedding screenshot [image/png 26316 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>
